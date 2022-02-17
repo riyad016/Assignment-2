@@ -1,0 +1,446 @@
+    /* universel code start from here */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        scroll-behavior: smooth;
+        transition: all ease.4s;
+    }
+    /* header start from here */
+    
+    .header_section {
+        background: url(images/header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    .header_main {
+        color: #FFF;
+        padding: 128px 150px;
+    }
+    
+    .header_main h1 {
+        font-weight: 500;
+        font-size: 4em;
+        text-transform: capitalize;
+        margin-bottom: 120px;
+    }
+    
+    header .header_content {
+        margin-top: 70px;
+        display: flex;
+        column-gap: 30px;
+        text-transform: capitalize;
+        padding-bottom: 200px;
+    }
+    
+    .header_content h3 {
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    
+    .header_content p {
+        line-height: 20px;
+    }
+    
+    .header_content i {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-top: 35px;
+        font-size: 50px;
+        color: #F1C50E;
+        margin-bottom: 10px;
+    }
+    /* learn Section Start from Here */
+    
+    .learn_section {
+        background-color: #141824;
+        height: 100vh;
+        color: #f1f1f1;
+        padding: 40px 135px;
+    }
+    
+    .learn_top {
+        text-align: center;
+        padding: 100px 20px;
+    }
+    
+    .learn_top i {
+        padding-bottom: 10px;
+        font-size: 40px;
+    }
+    
+    .learn_top h1 {
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 35px;
+    }
+    
+    .learn_top p {
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+    
+    .learn_bottom {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 25px;
+        padding: 40px 0;
+    }
+    
+    .learn_bottom .div1 {
+        width: 300px;
+        position: relative;
+    }
+    
+    .learn_bottom h2 {
+        text-transform: capitalize;
+        word-spacing: 4px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        font-weight: 400;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .learn_bottom .div1 .clr1 {
+        position: absolute;
+        width: 234px;
+        height: 36px;
+        left: 58px;
+        top: -3px;
+        background-color: #F1C50E;
+    }
+    
+    .learn_bottom .div2 {
+        width: 300px;
+        position: relative;
+    }
+    
+    .learn_bottom .div2 .clr2 {
+        position: absolute;
+        width: 234px;
+        height: 36px;
+        left: 58px;
+        top: -3px;
+        background-color: #F1C50E;
+    }
+    
+    .learn_bottom .div3 {
+        width: 300px;
+        position: relative;
+    }
+    
+    .learn_bottom .div3 .clr3 {
+        position: absolute;
+        width: 234px;
+        height: 36px;
+        left: 58px;
+        top: -3px;
+        background-color: #F1C50E;
+    }
+    
+    .learn_bottom p {
+        margin-top: 15px;
+        line-height: 1.2em;
+        text-align: justify;
+    }
+    /* Access section start from here */
+    
+    .access_section {
+        background-color: #E8EAE3;
+        height: 670px;
+        width: auto;
+        padding: 50px 115px;
+    }
+    
+    .access_section .container {
+        display: flex;
+    }
+    
+    .access_section .container i {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-top: 35px;
+        font-size: 50px;
+        color: #F1C50E;
+        margin-bottom: 10px;
+    }
+    
+    .container .left {
+        width: 50%;
+        padding: 100px 0;
+        position: relative;
+    }
+    
+    .container .left .clr4 {
+        position: absolute;
+        width: 350px;
+        height: 54px;
+        left: 77px;
+        top: 188px;
+        background-color: #F1C50E;
+    }
+    
+    .container .left h1 {
+        margin-bottom: 10px;
+        font-size: 35px;
+        font-weight: normal;
+        text-transform: capitalize;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .container .left p {
+        font-size: 18px;
+        line-height: 1.5em;
+        color: hsl(0, 3%, 29%);
+    }
+    
+    .container .left button {
+        border: none;
+        background-color: #000;
+        color: #f2f2f2;
+        padding: 15px 40px;
+        text-transform: capitalize;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    
+    .container .right {
+        width: 50%;
+    }
+    
+    .container .right .img {
+        height: auto;
+    }
+    
+    .right .img img {
+        height: 540px;
+        width: 600px;
+        background-position: center;
+    }
+    /* testomonials section starts from here */
+    
+    .testimonials {
+        background-color: #141824;
+        height: auto;
+        color: #f1f1f1;
+        padding: 40px 135px;
+    }
+    
+    .testimonials_content {
+        text-align: center;
+        margin: 80px 60px;
+    }
+    
+    .testimonials_content i {
+        padding-bottom: 10px;
+        font-size: 40px;
+    }
+    
+    .testimonials_content h1 {
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 35px;
+        margin-top: 15px;
+    }
+    
+    .testimonials_content p {
+        text-transform: capitalize;
+        font-size: 16px;
+        line-height: 1.5em;
+        letter-spacing: .2px;
+        color: rgba(231, 226, 226, 0.644);
+        text-align: justify;
+    }
+    /* images section start from here */
+    
+    .images {
+        height: auto;
+        width: auto;
+    }
+    
+    .image_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .image_container img {
+        height: 350px;
+        width: 100%;
+        background-position: center;
+    }
+    /* earn section start from here */
+    
+    .earn {
+        height: 100vh;
+    }
+    
+    .earn_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 80px 100px;
+    }
+    
+    .earn_left img {
+        height: 500px;
+        width: 500px;
+    }
+    
+    .earn_right {
+        padding: 50px 5px;
+    }
+    
+    .earn_right .right_top {
+        position: relative;
+    }
+    
+    .earn_right .right_top .clr4 {
+        position: absolute;
+        width: 365px;
+        height: 53px;
+        left: 122px;
+        top: -6px;
+        background-color: #F1C50E;
+    }
+    
+    .earn_right .right_top h1 {
+        font-size: 35px;
+        font-weight: 400;
+        text-transform: capitalize;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .earn_right .right_top p {
+        text-transform: capitalize;
+        font-size: 16px;
+        line-height: 1.5em;
+        letter-spacing: .2px;
+        color: hsl(0, 3%, 29%);
+        margin-top: 8px;
+    }
+    
+    .earn_right .right_bottom {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 50px 0 0 0;
+        grid-gap: 20px;
+    }
+    
+    .earn_right .right_bottom h3 {
+        font-size: 22px;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    
+    .earn_right .right_bottom p {
+        text-transform: capitalize;
+        font-size: 16px;
+        line-height: 1.5em;
+        letter-spacing: .2px;
+        color: hsl(0, 3%, 29%);
+        margin-top: 8px;
+    }
+    
+    .right_bottom i {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        margin-top: 35px;
+        font-size: 40px;
+        color: #F1C50E;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    /* Footer section Start from here */
+    
+    footer {
+        background: #141824;
+        height: 600px;
+        padding: 80px 50px;
+    }
+    
+    .footer_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 80px;
+        margin: 100px;
+    }
+    
+    .footer_container .contact_us {
+        color: #f1f1f1;
+        position: relative;
+    }
+    
+    .clr5 {
+        position: absolute;
+        width: 305px;
+        height: 47px;
+        left: 77px;
+        top: 62px;
+        background-color: #F1C50E;
+    }
+    
+    .contact_us>i {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        margin-top: 35px;
+        font-size: 40px;
+        color: #F1C50E;
+        margin: 0 0 20px 0;
+    }
+    
+    .contact_us h1 {
+        font-size: 40px;
+        font-weight: 200px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .social_icon i {
+        font-size: 26px;
+        color: #FFB600;
+        padding: 10px;
+    }
+    
+    .contact_us cite,
+    p {
+        text-transform: capitalize;
+        font-size: 16px;
+        line-height: 1.5em;
+        letter-spacing: .2px;
+        color: hsla(0, 5%, 82%, 0.849);
+        margin-top: 8px;
+    }
+    
+    input[type=text],
+    input[type=email],
+    textarea {
+        width: 100%;
+        background-color: transparent;
+        padding: 10px 15px;
+        border: 1px solid white;
+        color: #fff;
+        margin: 5px;
+    }
+    
+    .contact_form {
+        text-align: center;
+    }
+    
+    .contact_form button {
+        padding: 15px 30px;
+        background-color: #fff;
+        border: none;
+        color: #000;
+    }

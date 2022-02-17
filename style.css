@@ -11,7 +11,7 @@
     /* header start from here */
     
     .header_section {
-        background: url('images/header.jpg');
+        background: url('Images/header.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
